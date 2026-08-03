@@ -1,4 +1,4 @@
-# eelibel-meridian-platform
+# meridian-platform
 
 
 Internal platform engineering repo for Meridian Mutual Insurance.
