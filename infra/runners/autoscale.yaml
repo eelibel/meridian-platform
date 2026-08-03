@@ -1,0 +1,10 @@
+# GitHub Actions self-hosted runner pool — autoscaling config
+# Owned by: platform team
+runner_pool:
+  name: claims-ci-pool
+  min_runners: 2
+  max_runners: 16
+  scale_down_idle_minutes: 15
+  labels:
+    - self-hosted
+    - claims
