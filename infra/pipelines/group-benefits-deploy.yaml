@@ -1,0 +1,5 @@
+service: group-benefits
+deploy:
+  strategy: rolling
+  timeout_minutes: 10
+  approvals_required: 1
